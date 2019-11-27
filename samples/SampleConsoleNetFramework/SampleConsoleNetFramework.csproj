@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Microsoft.AspNetCore.NodeServices.csproj">
+      <Project>{3ec4f4e3-52f7-4740-baff-4d1f655f0568}</Project>
+      <Name>Microsoft.AspNetCore.NodeServices</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
